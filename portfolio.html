@@ -13,53 +13,162 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <h1>PROJECTS</h1>
+    <div id="container">
+        <ul class="nav navbar-nav">
+            <li class="active">
+                <a>
+                    <b><mark>PROJECTS</mark></b><br>
+                    <!--<mark>Data Analyst</mark>-->
+                </a>
+            </li>
+        </ul>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About me</a></li>
+            <li><a href="portfolio.html">Portfolio</a>
+                <ul>
+                    <li><a href="portfolio.html#p1">Stock Market Project</a></li>
+                    <li><a href="portfolio.html#p2">Where to Work Project</a></li>
+                    <li><a href="portfolio.html#p3">Data Visualization</a></li>
+                </ul>
+            </li>
+            <li><a href="services.html">Skills</a>
+                <ul>
+                    <li><a href="services.html#s1">Excel skills</a></li>
+                    <li><a href="services.html#s2">Python skills</a></li>
+                    <li><a href="services.html#s3">Databases skills</a></li>
+                    <li><a href="services.html#s4">Web Visualization</a></li>
+                    <li><a href="services.html#s5">Business intelegence skills</a></li>
+                    <li><a href="services.html#s6">Big data skills</a></li>
+                    <li><a href="services.html#s7">Electronic data collection</a></li>
+                    <li><a href="services.html#s8">Data related skills</a></li>
+                </ul>
+            </li>
+            <li><a href="aboutme.html#c1">Contact Me</a>
+                
+                <ul>
+                    <li><a href="aboutme.html#c1">address</a></li>
+                    <li><a href="aboutme.html#c1">phone</a></li>
+                    <li><a href="aboutme.html#c1">email</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <h1 id="p1">Stock Market Project</h1>
+    <p>This project studies the impact of news on the stock market. It uses API to find the news and it leverages VaderSentiment package to quantify the news. 
+        Then we plot Stock Prices and Stock Volumnes against Vader Scores.
+
+        The news source is from: New York Times, Wall Street Journal, and CNN. The stock market data is from: Alpha Vantage.
+    </p>
+    <a href="#">
+        <img src="data_image/apple_price.png" alt="Apple Price"
+        style="width:400px; height:300px;">
+    </a>
+    <a href="#">
+        <img src="data_image/apple_volume.png" alt="Apple Volume"
+        style="width:400px; height:300px;">
+    </a>
+    <a href="#">
+        <img src="data_image/fb_price.png" alt="Facebook Price"
+        style="width:400px; height:300px;">
+    </a>
+    <a href="#">
+        <img src="data_image/fb_volume.png" alt="Facebook Volume"
+        style="width:400px; height:300px;">
+    </a>
+    <a href="#">
+        <img src="data_image/stock_price.png" alt="Stock Price"
+        style="width:400px; height:300px;">
+    </a>
+    <a href="#">
+        <img src="data_image/stock_volume.png" alt="stock_volume"
+        style="width:400px; height:300px;">
+    </a>
+    <a href="#">
+        <img src="data_image/trump_price.png" alt="Trump word affect price"
+        style="width:400px; height:300px;">
+    </a>
+    <a href="#">
+        <img src="data_image/trump_volume.png" alt="Trum word affect volume"
+        style="width:400px; height:300px;">
+    </a>
+    <h1 id="p2">Where to Work Project</h1>
+    <p>
+        This project studies about where and which compnaies is the best to work as Data Scientist in the United States. It identifies the most seek-after
+        skills from more than 4000 job descriptions and it explores the correlations among location, company, salary and job rating.
+    </p>
+    <a href="#">
+        <img src="data_image/All Key Words.png" alt="All Key skills for Data Science"
+        style="width:400px; height:300px;">
+    </a>
+    <a href="#">
+        <img src="data_image/Programming Skills.png" alt="Programming Skills"
+        style="width:400px; height:300px;">
+    </a>
+    <a href="#">
+        <img src="data_image/tableau1.png" alt="tableau Data Visualization"
+        style="width:400px; height:300px;">
+    </a>
+    <a href="#">
+        <img src="data_image/tableau2.png" alt="Tableau Data Visualization"
+        style="width:400px; height:300px;">
+    </a>
+    <a href="#">
+        <img src="data_image/tablaeu3.png" alt="Tableau Data Visualization"
+        style="width:400px; height:300px;">
+    </a>
+    <a href="#">
+        <img src="data_image/tableau4.png" alt="Tableau Data Visualization"
+        style="width:400px; height:300px;">
+    </a>
+
+    <h1 id="p3">Data Visualization</h1>
     <a href="#">
         <img src="data_image/Metastatic_Spread.png" alt="Metastaic spread"
         style="width:400px; height:300px;">
     </a>
     <a href="#">
-        <img src="data_image/Tumor_response.png" alt="Metastaic spread"
+        <img src="data_image/Tumor_response.png" alt="Tumor spread"
         style="width:400px; height:300px;">
     </a>
     <a href="#">
-        <img src="data_image/Survival_Rate.png" alt="Metastaic spread"
+        <img src="data_image/Survival_Rate.png" alt="Survival rate"
         style="width:400px; height:300px;">
     </a>
     <a href="#">
-        <img src="data_image/Tumor_change.png" alt="Metastaic spread"
+        <img src="data_image/Tumor_change.png" alt="Tumor Change"
         style="width:400px; height:300px;">
     </a>
     <a href="#">
-        <img src="data_image/temp.png" alt="Metastaic spread"
+        <img src="data_image/temp.png" alt="temp"
         style="width:400px; height:300px;">
     </a>
     <a href="#">
-        <img src="data_image/cloud.png" alt="Metastaic spread"
+        <img src="data_image/cloud.png" alt="cloud"
         style="width:400px; height:300px;">
     </a>
     <a href="#">
-        <img src="data_image/humi.png" alt="Metastaic spread"
+        <img src="data_image/humi.png" alt="humidity"
         style="width:400px; height:300px;">
     </a>
     <a href="#">
-        <img src="data_image/wind.png" alt="Metastaic spread"
+        <img src="data_image/wind.png" alt="wind"
         style="width:400px; height:300px;">
     </a>
     <a href="#">
-        <img src="data_image/bubble_chart.png" alt="Metastaic spread"
+        <img src="data_image/bubble_chart.png" alt="bubble"
         style="width:400px; height:300px;">
     </a>
     <a href="#">
-        <img src="data_image/dashboard_part1.png" alt="Metastaic spread"
+        <img src="data_image/dashboard_part1.png" alt="dashboard"
         style="width:400px; height:300px;">
     </a>
     <a href="#">
-        <img src="data_image/dashboard_part2.png" alt="Metastaic spread"
+        <img src="data_image/dashboard_part2.png" alt="dashboard"
         style="width:400px; height:300px;">
     </a>
     <a href="#">
-        <img src="data_image/pie_chart.png" alt="Metastaic spread"
+        <img src="data_image/pie_chart.png" alt="dashboard"
         style="width:400px; height:300px;">
     </a>
 
